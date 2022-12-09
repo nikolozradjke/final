@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0401814-07fa-42fa-aa14-f35dd7e24e07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/weather.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layouts/navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/layouts/navbar/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +58,8 @@
       <workItem from="1670520689194" duration="678000" />
       <workItem from="1670524275055" duration="2931000" />
       <workItem from="1670571725908" duration="7014000" />
-      <workItem from="1670584466445" duration="1594000" />
+      <workItem from="1670584466445" duration="1894000" />
+      <workItem from="1670592254433" duration="344000" />
     </task>
     <servers />
   </component>
