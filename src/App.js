@@ -1,13 +1,13 @@
 import {Routes, Route} from "react-router-dom";
-import {Home} from "./views/pages/Home";
-import {About} from "./views/pages/About";
-import {Nav} from "./views/layouts/navbar/Navbar"
+import {Home} from "./components/pages/Home";
+import {About} from "./components/pages/About";
+import {Nav} from "./components/layouts/navbar/Navbar"
 import {createStore} from "redux";
 import allReducers from "./store";
 import {Provider} from "react-redux";
 import {useEffect, useState} from "react";
 import axios from "axios";
-import {PageNotFound} from "./views/pages/404";
+import {PageNotFound} from "./components/pages/404";
 
 function App() {
 
