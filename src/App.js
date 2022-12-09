@@ -7,6 +7,7 @@ import allReducers from "./store";
 import {Provider} from "react-redux";
 import {useEffect, useState} from "react";
 import axios from "axios";
+import {PageNotFound} from "./views/pages/404";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/about-us" element={<About />} />
+                  <Route path="*" element={<PageNotFound />} />
               </Routes>
           </Provider>
       </>
