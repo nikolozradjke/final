@@ -17,11 +17,13 @@ function App() {
         allReducers
     )
 
+    async function getResults() {
+        const results = await axios('https://api.open-meteo.com/v1/forecast?latitude=41.71&longitude=44.76&current_weather=true');
+        setWeather(results.data.current_weather.temperature);
+    }
+
     useEffect(() => {
-        async function getResults() {
-            const results = await axios('https://api.open-meteo.com/v1/forecast?latitude=41.71&longitude=44.76&current_weather=true');
-            setWeather(results.data.current_weather.temperature);
-        }
+
         getResults()
 
     },[])

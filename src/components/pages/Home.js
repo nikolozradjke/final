@@ -15,16 +15,13 @@ export function Home(){
         setCountry({country: e.target.value});
     };
 
+    async function getResponse(){
+        const response = await axios.get('http://universities.hipolabs.com/search', { params: country});
+        fetchItems(response.data);
+    }
+
     const LoadItems = useCallback(()=> {
-        try{
-            async function getResponse(){
-                const response = await axios.get('http://universities.hipolabs.com/search', { params: country});
-                fetchItems(response.data);
-            }
-            getResponse();
-        }catch(error){
-            console.log(error)
-        }
+        getResponse();
     }, [country]);
 
     return (
